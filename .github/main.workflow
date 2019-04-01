@@ -11,7 +11,7 @@ action "Filters for GitHub Actions" {
 action "Run Npm Test" {
   uses = "actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680"
   needs = ["Filters for GitHub Actions"]
-  args = "test"
+  args = "install"
 }
 
 action "Build VScode " {
